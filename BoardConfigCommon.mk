@@ -200,6 +200,10 @@ TARGET_COPY_OUT_VENDOR := vendor
 TARGET_PER_MGR_ENABLED := true
 
 # Properties
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
+
+
+# Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # QCOM hardware
