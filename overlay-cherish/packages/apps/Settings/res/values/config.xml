@@ -14,7 +14,7 @@
 <resources>
 
     <!-- Whether to show Selinux status in Settings -->
-    <bool name="config_showSelinuxStatus">false</bool>
+    <bool name="config_showSelinuxStatus">true</bool>
 
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
