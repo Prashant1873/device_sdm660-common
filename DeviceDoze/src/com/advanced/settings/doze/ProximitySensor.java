@@ -51,7 +51,7 @@ public class ProximitySensor implements SensorEventListener {
     public ProximitySensor(Context context) {
         mContext = context;
         mSensorManager = mContext.getSystemService(SensorManager.class);
-        mSensor = mSensorManager.getDefaultSensor(Sensor.TYPE_PROXIMITY, false);
+        mSensor = DozeUtils.getSensor(mSensorManager, "android.sensor.proximity");
         mExecutorService = Executors.newSingleThreadExecutor();
     }
 
