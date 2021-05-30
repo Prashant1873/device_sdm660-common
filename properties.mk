@@ -132,6 +132,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.sf.hw=1 \
+    debug.hwui.renderer=skiavk
     debug.sf.latch_unsignaled=1 \
     ro.opengles.version=196610 \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
