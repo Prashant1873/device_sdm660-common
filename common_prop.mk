@@ -153,7 +153,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     debug.hwui.renderer=skiagl \
     debug.sf.latch_unsignaled=1 \
-    debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=1 \
     debug.sf.disable_backpressure= 1 \
     debug.sf.use_phase_offsets_as_durations=1 \
