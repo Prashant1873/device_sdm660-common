@@ -137,6 +137,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096 \
     ro.surface_flinger.protected_contents=true \
+    debug.performance.tuning=1
     ro.surface_flinger.use_smart_90_for_video=true \
     ro.surface_flinger.set_display_power_timer_ms=10000 \
     ro.surface_flinger.set_touch_timer_ms=5000 \
@@ -217,7 +218,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 
 # Sensor
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.sdk.sensors.gestures=false \
+   ro.vendor.sdk.sensors.gestures=false \
     ro.vendor.sensors.cmc=false \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.dev_ori=true \
