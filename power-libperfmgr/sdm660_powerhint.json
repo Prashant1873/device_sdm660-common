@@ -47,7 +47,8 @@
         "1958400",
         "1747200",
         "1401600",
-        "1113600"
+        "1113600",
+        "0"
       ],
       "ResetOnInit": true
     },
@@ -107,7 +108,8 @@
       "Path": "/sys/class/kgsl/kgsl-3d0/idle_timer",
       "Values": [
         "10000",
-        "80"
+        "80",
+        "64"
       ],
       "ResetOnInit": true
     },
@@ -115,8 +117,8 @@
       "Name": "TASchedtuneBoost",
       "Path": "/dev/stune/top-app/schedtune.boost",
       "Values": [
-        "30",
-        "10"
+        "5",
+        "0"
       ],
       "ResetOnInit": true
     },
@@ -264,7 +266,7 @@
       "PowerHint": "INTERACTION",
       "Node": "TASchedtuneBoost",
       "Duration": 0,
-      "Value": "30"
+      "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
@@ -294,13 +296,13 @@
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
       "Duration": 3000,
-      "Value": "9999999"
+      "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 3000,
-      "Value": "9999999"
+      "Value": 	"1536000"
     },
     {
       "PowerHint": "LAUNCH",
@@ -336,7 +338,7 @@
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
       "Duration": 3000,
-      "Value": "10000"
+      "Value": "64"
     },
     {
       "PowerHint": "CAMERA_LAUNCH",
