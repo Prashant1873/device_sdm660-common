@@ -336,10 +336,6 @@ PRODUCT_PACKAGES += \
     qcom.fmradio.xml
 endif
 
-# Iorap
-PRODUCT_PACKAGES += \
-    iorap-app-startup-runner
-
 # Ion
 PRODUCT_PACKAGES += \
     libion
@@ -407,8 +403,7 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(COMMON_PATH)/overlay \
-    $(COMMON_PATH)/overlay-ssos \
-    $(COMMON_PATH)/overlay-lineage
+    $(COMMON_PATH)/overlay-cherish
 
 # RRO configuration
 TARGET_USES_RRO := true
