@@ -915,9 +915,6 @@
       <item>"/system/lib64/libsurfaceflinger.so"</item>
     </string-array>
 
-    <!-- Should the pinner service pin the Home application? -->
-    <bool name="config_pinnerHomeApp">true</bool>
-
 
     <!-- Default value for proximity check on screen wake.
     Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
