@@ -632,3 +632,15 @@ PRODUCT_PACKAGES += \
 # IPA
 USE_DEVICE_SPECIFIC_DATA_IPA_CFG_MGR := true
 USE_DEVICE_SPECIFIC_IPACFG_MGR := true
+
+YOUR_HW_PLATFORM := sdm660
+
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(YOUR_HW_PLATFORM)/media
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+$(LOCAL_PATH) \
+hardware/qcom-caf/$(YOUR_HW_PLATFORM)
